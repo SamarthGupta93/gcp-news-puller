@@ -1,0 +1,13 @@
+[project]
+name = "news-puller"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "feedparser>=6.0",
+    "google-genai>=1.73.1",
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
+]
