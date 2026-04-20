@@ -104,21 +104,21 @@ All three scripts produce records with a shared schema. The unified `combined_*.
 
 Both sources share a common vocabulary. Blog articles use Gemini to classify; release notes use Google's own labels mapped to the same values.
 
-| Value | Description | Ticket signal |
-|---|---|---|
-| `feature` | New capability added | Moderate lag (users adopt) |
-| `announcement` | Major product milestone or GA launch | Adoption-driven spike 4–8 wks out |
-| `change` | Behavioral or config change | Low–medium |
-| `deprecated` | End-of-life notice | Spike near deadline |
-| `breaking_change` | Breaking API/behavior change | Spike within days |
-| `fixed` | Bug fix | Low |
-| `security` | Security update | Low–medium |
-| `case_study` | Customer story | Low |
-| `guide` | Tutorial or how-to | Low |
-| `research` | Research publication | Low |
-| `event_recap` | Conference announcement or recap | Low |
-| `integration` | New partner or product integration | Moderate |
-| `other` | — | — |
+| Value | Description |
+|---|---|
+| `feature` | New capability added |
+| `announcement` | Major product milestone or GA launch |
+| `change` | Behavioral or config change |
+| `deprecated` | End-of-life notice |
+| `breaking_change` | Breaking API/behavior change |
+| `fixed` | Bug fix |
+| `security` | Security update |
+| `case_study` | Customer story |
+| `guide` | Tutorial or how-to |
+| `research` | Research publication |
+| `event_recap` | Conference announcement or recap |
+| `integration` | New partner or product integration |
+| `other` | — |
 
 ### `event_subtype` values (blog only)
 
